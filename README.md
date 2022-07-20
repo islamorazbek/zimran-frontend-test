@@ -18,7 +18,7 @@ In order to successfully run the app you must have Node.js or Docker installed i
 
 In order to Run with Docker, you can:
 
-### `docker build . zimran-frontend`
+### `docker build -t zimran-frontend .`
 
 After succesfull build:
 
