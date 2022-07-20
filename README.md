@@ -16,6 +16,17 @@ All of the large sized images are stored in public/images folder.
 
 In order to successfully run the app you must have Node.js or Docker installed in your computer.
 
+In order to Run with Docker, you can:
+
+### `docker build . zimran-frontend`
+
+After succesfull build:
+
+### `docker run --rm -p 3000:3000 zimran-frontend`
+
+After successfull start:
+  You can open the browser at url: [http://localhost:3000](http://localhost:3000) to see the result
+
 In the project directory, you can run:
 
 ### `npm start`
